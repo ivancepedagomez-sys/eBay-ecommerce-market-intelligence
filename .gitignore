@@ -1,0 +1,15 @@
+# Ignorar entorno virtual
+venv/
+__pycache__/
+
+# Ignorar variables de entorno y secretos (¡MUY IMPORTANTE!)
+.env
+
+# Ignorar archivos de sistema y temporales
+.DS_Store
+*.log
+.vscode/
+
+#Ignore bases de datos pesadas
+data/
+
