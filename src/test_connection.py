@@ -27,6 +27,7 @@ DB_HOST = os.getenv("DB_HOST")
 DB_NAME = os.getenv("DB_NAME")
 DB_PORT = os.getenv("DB_PORT")
 
+
 #Crear la cadena de conexión (connection String)
 #formato: postgresql://usuario:password@host:puerto/nombre_bd
 
